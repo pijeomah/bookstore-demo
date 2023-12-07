@@ -89,3 +89,13 @@ Add a fragment into the App function
  Apply appropriate Bootstrap styling here 
  refer to video
  
+
+ Next we create navbar links, inorder to do that  we connect the links to the router that is already set up foreach link using page Nav and Nav.Link comp
+ Next we add a shopping cart button
+
+ Inside the the Nav Container add a class name that pushes nav item to end of page
+(refer to video)
+
+Copy shopping cart button from github
+Clear all unmade EH from the Button 
+
