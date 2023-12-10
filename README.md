@@ -125,3 +125,12 @@ Next we format the prices
 
 To format the prices we create a new file in the utils folder and then we create the formatCurrency function 
 After creating the function we wrap the function around the price all inside the curly brackets
+
+The next step would be to hard code a quantity to test the functionality of adding items to the cart
+Below the Card.Title comp create a div that holds the conditional that determines the visual state of the button
+Apply styling referred from 3h25m -3h30m
+
+Then we wrpa the tow seperate conditionals in aprentheses and in the second parentheses we create two divs one for adding and removing items and one for  
+Next we test whether the codition works by manually testing the quantity
+
+After testing we create two Buttons that would hold +/- signs with text between then a span should hold the text with a div wrapping it 
