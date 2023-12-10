@@ -121,4 +121,7 @@ There is some styling here refer to the video at
 2h53m - 2h56m
 
 Next we use the Card.Body for the part of the card that would hold the item name and price inside the body we use the card.Title to hold the actual string which would be in a span element there is styling here too
-Next we format the prices
+Next we format the prices 
+
+To format the prices we create a new file in the utils folder and then we create the formatCurrency function 
+After creating the function we wrap the function around the price all inside the curly brackets
