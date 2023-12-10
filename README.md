@@ -99,3 +99,26 @@ Add a fragment into the App function
 Copy shopping cart button from github
 Clear all unmade EH from the Button 
 
+Now we create the data for our store in the Data folder with a json file called items copied from Github
+
+The next thing to do is to import the json file into the Store file 
+
+Next in the store function
+we need to loop through the store items in the Json file the first step would be to wrap everything in a fragment, next would be to Wrap the mapped contents in a row and then loop through them using a map method then in the col comp in the map we stringify the store items
+After this we apply some grid styling refer to 2h32m 
+
+Next step would be to get rid of the stringified file in the Col comp and replace with a StoreItem file that has not yet been created 
+
+In the components folder we create StoreItem withe props for name,id,price,imgUrl
+
+we then create types for each of these props and then apply the type to the function
+
+
+Next we use the custom bootstrap card comp to wrap all the info we are going to display for each store item
+
+Then using the Card.img comp we apply the img to the store page
+There is some styling here refer to the video at 
+2h53m - 2h56m
+
+Next we use the Card.Body for the part of the card that would hold the item name and price inside the body we use the card.Title to hold the actual string which would be in a span element there is styling here too
+Next we format the prices

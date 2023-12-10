@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Brave New World ",
+      "price": 10.99,
+      "imgUrl": "./images/BNW.jpg"
+    },
+    {
+      "id": 2,
+      "name": "1984",
+      "price": 1199,
+      "imgUrl": "./images/1984.jpg"
+    },
+    {
+      "id": 3,
+      "name": "The Great Gatsby",
+      "price": 14000,
+      "imgUrl": "/images/ggby.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "The Haunting of Hill House",
+      "price": 1.05,
+      "imgUrl": "./images/HoHH.jpeg"
+    }
+  ]
