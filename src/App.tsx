@@ -4,11 +4,12 @@ import { Home } from './Pages/Home'
 import { About } from './Pages/About' 
 import { Store } from './Pages/Store'  
 import { Navbar } from './Components/Navbar'
+import { ShoppingCartProvider } from "./Context/ShoppingCartContext";
 
 
 function App() {
   return (
-  <>
+  <ShoppingCartProvider>
   <Navbar/>
   <Container className="mb-4">
       <Routes>
@@ -19,7 +20,7 @@ function App() {
 
   </Container>
 
-  </>
+  </ ShoppingCartProvider>
   )
 }
 ;

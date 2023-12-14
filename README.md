@@ -134,3 +134,39 @@ Then we wrpa the tow seperate conditionals in aprentheses and in the second pare
 Next we test whether the codition works by manually testing the quantity
 
 After testing we create two Buttons that would hold +/- signs with text between then a span should hold the text with a div wrapping it 
+
+Our next step would be to start building the logic of our store we do this by creating a shoppingcartcpntext in the Context folder
+
+the first thing we do is to create context using the CC hook and assign it to a variable called SCartC
+
+The next step would be to create the useShopping Car function this functionwould return the use context hook wrapped around the shopping cart context variable
+create a type for the shopping cart providers and give it a type of React node
+The next step would be to build the shopping cart provider which returs the provider wrapped around the childen prop
+
+NExt we move to the App.ts folder and we wrap the whole App with shopping cart provider
+Th next step would be to decare the types for the Shopping Cart context which are functions that would dictate the behaviour of the shopping cart the functions are as follows 
+
+getItemQuantity: (id: number) => number
+    increaseCartQuantity: (id: number) => void
+    decreaseCartQuantity: (id: number) => void
+    removeFromCart: (id: number) => void
+    
+
+    After declaring types we assign the declared types to the shopping cart context variable
+
+
+    Next we set up state for the cart items with an initial value of an empty array. State would be set up in typescript style which looks like this
+
+
+    const  [cartItems,setCartItems] = useState<CartItem[]>([])
+
+
+
+    After setting up state  we build each of the type functions 
+    The first function involves getting the itew quantity and this is done by finding all cart items with a particular id and returning the quantity of that item This function takes in an id and returns an id
+
+    The next function takes in an id but returs a void because this time we are using the setCartItem function to update the item quantity we do this by finding the number of current itemsand if there are no current items we append the item to the array but if there are current items we map over the items to find te items that are a match to the id and increase by one we do this by mapping over the cuurItems
+
+
+    The next function we create would be the decrease quantity function where we essentially do the opposite of the increase quantity function we check if the quantity of the item is 1 if it is we remove the item from the lsit if it is more than one decrease by one
+    
