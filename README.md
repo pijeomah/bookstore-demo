@@ -169,4 +169,46 @@ getItemQuantity: (id: number) => number
 
 
     The next function we create would be the decrease quantity function where we essentially do the opposite of the increase quantity function we check if the quantity of the item is 1 if it is we remove the item from the lsit if it is more than one decrease by one
+    The last function for shopping cart context is a remove from cart functionwhic we use to remove all of a certain product from the cart this is done by filtering out the id of the particular product
+
+    The next step would be to place all our functions in the shopping cart provider as the values
     
+    next we move to the Store item component we import the useShopping cart function and assign the context functions to the US function
+
+
+    Next we attach the functions to their respective event handlers
+
+
+    The next step would be to work on the cart functionality these are the functions and variables for cart functionality 
+    cartItems
+    cartQuantity
+    openCart
+    closeCart
+
+
+    The first step would be to declaare the types for each ot this values 
+    cartItems[]
+    number
+    void
+    void
+
+    Thenext step would be to input the cartItems into the provider and then create the function for the cart quantity which would be a reduce function for all items in the cart
+
+    Next we create a state that checks whether the store is open or not and then set the values for the open and close cart functions
+
+    The next step is to create a shopping cart component which would be used to create the shopping cart
+     
+     The first thing would be to create and designthe cart using the offcanvas rb component 
+     then using the dot notation give it a Header which contains a close button and a Title which hold s the title of the store
+
+We set the show attribute to true at first and onHide to closeCart 
+
+Next we assign close Cart to the useShopping function and place the carrt at the right end of the page
+
+Now we set the show prop to isOpen and pass isOpen as a prop to the SC function
+
+Next we go to SCC to pass isOpen as a prop for SC comp
+
+Next we declare the type for the isopen prop
+
+      
